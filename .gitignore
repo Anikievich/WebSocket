@@ -1,7 +1,7 @@
- **Client/.idea/
- **build/
- **cmake-build-debug/
- **.idea/
+ *.idea
+ *build
+ *cmake-build-debug/
+
  ### C ###
  # Prerequisites
  *.d
