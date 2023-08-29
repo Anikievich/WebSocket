@@ -1,6 +1,7 @@
- **/build
- **/cmake-build-debug
- **/.idea
+ **Client/.idea/
+ **build/
+ **cmake-build-debug/
+ **.idea/
  ### C ###
  # Prerequisites
  *.d
