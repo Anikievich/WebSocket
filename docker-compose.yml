@@ -1,0 +1,14 @@
+
+
+services:
+  server:
+    image: server:2
+    restart: always
+    ports:
+      - 9090:9090
+
+  client:
+    image: client:2
+    restart: always
+    ports:
+      - 9091:9092
