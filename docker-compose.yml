@@ -10,5 +10,4 @@ services:
   client:
     image: client:2
     restart: always
-    ports:
-      - 9091:9092
+    network_mode: host

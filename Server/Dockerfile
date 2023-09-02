@@ -1,9 +1,11 @@
 FROM gcc
 
 LABEL authors="aniki"
+
+
 RUN apt-get update && apt-get install -y cmake
 COPY . /usr/src/Server
-
+EXPOSE 9090
 
 WORKDIR /usr/src/Server
 

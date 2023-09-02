@@ -1,6 +1,7 @@
 FROM gcc
 
 LABEL authors="aniki"
+
 RUN apt-get update && apt-get install -y cmake
 COPY . /usr/src/Client
 
